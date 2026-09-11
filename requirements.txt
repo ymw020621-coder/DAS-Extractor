@@ -1,0 +1,20 @@
+# DAS-Extractor — runtime dependencies
+#
+# Derived from the imports in FYP_CODE.ipynb:
+#   import os, re, time          -> standard library
+#   import numpy as np
+#   import pandas as pd
+#   import fitz                  -> provided by PyMuPDF
+#   from tqdm import tqdm
+#   from openai import OpenAI    -> requires openai>=1.0 (v1 client API)
+#   from IPython.display import ...  -> requires ipython
+#
+# Install:
+#   pip install -r requirements.txt
+
+numpy>=1.24
+pandas>=2.0
+PyMuPDF>=1.23
+tqdm>=4.65
+openai>=1.0
+ipython>=8.0
